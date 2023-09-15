@@ -16,9 +16,11 @@ public class Calculadora {
         double soma = num1 + num2;
         double diferenca = num1 - num2;
         double produto = num1 * num2;
+        double divisao = num1 / num2;
 
         System.out.println("A soma dos números é: " + soma);
         System.out.println("A diferença dos números é: " + diferenca);
         System.out.println("O produto dos números é: " + produto);
+        System.out.println("O quociente dos números é: " + divisao);
     }
 }
